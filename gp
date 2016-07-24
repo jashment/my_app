@@ -1,4 +1,4 @@
 git add -A
-git commit -m "added comment model"
+git commit -m "added controller for comments and view partials"
 git push origin master
 git push heroku master
