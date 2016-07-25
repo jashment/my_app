@@ -12,7 +12,6 @@ class CommentsController < ApplicationController
      else
      redirect_to 'new'
     end
-
   end
   
   def update

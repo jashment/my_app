@@ -1,4 +1,3 @@
 git add -A
-git commit -m "added controller for comments and view partials"
+git commit -m "fresh push to github"
 git push origin master
-git push heroku master

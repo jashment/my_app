@@ -6,11 +6,11 @@
  <!-- Blog Post -->
  <!-- Title -->
  <h1 style="font-size: 62.5px;">
-   <%= @article.title %>
+  <%= @article.title %>
  </h1>
  <!-- Author -->
  <p class="lead">
- <%= @article.user.username %>
+  <%= @article.user.username %>
  </p>
  <hr>
  <!-- Date/Time -->
@@ -25,8 +25,6 @@
  <hr>
  <!-- Blog Comments -->
  <%= @article.body %>
- 
- <hr>
  <!-- Comments Form -->
 
  <%= render 'comments/form' %>
