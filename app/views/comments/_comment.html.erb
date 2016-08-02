@@ -1,11 +1,13 @@
 <div class="media">
  <div class="pull-left">
-   <%= comment.user.username %>
+   <%= comment.user.username unless comment.user.blank? %>
  </div>
  <div class="media-body">
    <p class="media-heading pull-right">
-     
-   </p>
+     <%= time_ago_in_words(comment.created_at) unless comment.created_at.blank? %>
+   </p></br>
+    <%= comment.body %>
 
  </div>
 </div>
+
